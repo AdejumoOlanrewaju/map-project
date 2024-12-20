@@ -17,33 +17,33 @@ const Navbar = () => {
           <img src={DownArrow} alt="arrow icon" className="down-arrow" />
         </div>
 
-        <div className="search-bar-container">
+        <div className="search-bar-container flex">
           <div className="search-bar">
             <input type="text" className="search-input" placeholder="Search" />
-            <div className="filter-cta">
-              <span className="filter-cta-text">Filter</span>
-              <span className="filter-cta-arrow">
-                <svg
-                  width="800px"
-                  height="800px"
-                  style={{ transform: `rotate(270deg)` }}
-                  viewBox="0 0 1024 1024"
-                  className="icon"
-                  version="1.1"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M768 903.232l-50.432 56.768L256 512l461.568-448 50.432 56.768L364.928 512z"
-                    fill="#000000"
-                  />
-                </svg>
-              </span>
-            </div>
+          </div>
+          <div className="filter-cta flex gp-7">
+            <span className="filter-cta-text">Filter</span>
+            <span className="filter-cta-arrow flex-center">
+              <svg
+                width="800px"
+                height="800px"
+                style={{ transform: `rotate(270deg)` }}
+                viewBox="0 0 1024 1024"
+                className="down-arrow"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M768 903.232l-50.432 56.768L256 512l461.568-448 50.432 56.768L364.928 512z"
+                  fill="#000000"
+                />
+              </svg>
+            </span>
           </div>
         </div>
       </div>
-      <div className="flex">
-        <span className="bell-icon">
+      <div className="flex gp-15">
+        <span className="bell-icon flex-center">
           <svg
             width="36"
             height="40"
@@ -58,7 +58,7 @@ const Navbar = () => {
           </svg>
         </span>
 
-        <span className="more-icon">
+        <span className="more-icon flex-center">
           <svg
             width="36"
             height="36"
@@ -73,10 +73,10 @@ const Navbar = () => {
           </svg>
         </span>
 
-        <div className="profile-container flex">
+        <div className="profile-container flex gp-7">
           <img className="profile-pic" src={ProfilePic} alt="" />
           <span className="user-profile-name">Uther Martin</span>
-          <span className="verify-icon">
+          <span className="verify-icon flex-center">
             <svg
               width="22"
               height="22"
