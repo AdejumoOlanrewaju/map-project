@@ -13,7 +13,7 @@ const Navbar = () => {
 
       <div className="flex gp-20">
         <div className="flex gp-5">
-          <span>Resources</span>
+          <span className="bold-p cs-p">Resources</span>
           <img src={DownArrow} alt="arrow icon" className="down-arrow" />
         </div>
 

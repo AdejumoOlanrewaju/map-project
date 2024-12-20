@@ -236,8 +236,13 @@ a.logo-container {
 }
 
 .down-arrow {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
+  transform: translateY(2px)
+}
+
+.cs-p{
+  cursor: pointer;
 }
 
 .profile-pic{
