@@ -11,7 +11,7 @@ const Navbar = () => {
         <img src={LogoText} alt="" className="logo-text" />
       </div>
 
-      <div className="flex gp-20">
+      <div className="search-util-wrapper flex gp-20">
         <div className="flex gp-5">
           <span className="bold-p cs-p">Resources</span>
           <img src={DownArrow} alt="arrow icon" className="down-arrow" />

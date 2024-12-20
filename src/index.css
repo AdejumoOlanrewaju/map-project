@@ -252,6 +252,21 @@ a.logo-container {
   border-radius: 50%;
 }
 
+.search-util-wrapper{
+  width: 45%;
+}
+
+.search-bar-container{
+  width: 80%;
+}
+
+.search-bar{
+  width : 100%;
+  padding : 7px 12px;
+  border-radius: 50px;
+  border: 1px solid hsl(0, 0%, 10%);
+}
+
 .mobile.nav-links-container {
   position: fixed;
   top: 70px;
