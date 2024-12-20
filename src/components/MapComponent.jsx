@@ -24,7 +24,7 @@ const MapComponent = () => {
 
     fetchData();
   }, []);
-
+  console.log(geoData)
   if (!geoData) {
     return <p>Loading map...</p>;
   }
